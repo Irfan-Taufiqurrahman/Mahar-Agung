@@ -1,0 +1,126 @@
+#header {
+    background-image: url(Gallery/Judul.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#header .navbar-brand img {
+    width: 200px;
+}
+
+.nav-link {
+    transition: .3s;
+    font-size: 24px;
+    padding-top: 15px;
+    margin: 2rem;
+}
+
+.nav-link:hover {
+    transform: translateY(-8px);
+}
+
+.Logo img {
+    overflow: hidden;
+    transition: all 0.5s;
+}
+
+.Logo .img:hover {
+    transform: scale(1.2);
+}
+
+#landingpage {
+    margin-top: 15%;
+}
+
+#part-2 {
+    background-image: url(Gallery/Backgrounf.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.text-title {
+    font-family: 'DragonWings';
+    font-size: 4rem;
+    color: cornflowerblue;
+}
+
+.text-title-2 {
+    color: cornflowerblue;
+}
+
+.text-title-2 h1 {
+    color: crimson;
+    padding-bottom: 5%;
+}
+
+.text-title-2 p {
+    font-size: 24px;
+    color: white;
+    padding-bottom: 15%;
+    padding-right: 20%;
+}
+
+.Logo img {
+    width: 25rem;
+}
+
+#Testimoni {
+    background-image: url(Gallery/Background-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.support {
+    padding: 5%;
+}
+
+.fas {
+    font-size: 50px;
+}
+
+.Logo-2 img {
+    width: 20%;
+    padding-left: 2%;
+}
+
+.media {
+    color: black;
+    font-size: 2rem;
+    font-family: 'DigitaltsOrange';
+    padding-bottom: 5%;
+}
+
+.contact-link {
+    font-size: 3rem;
+    padding-right: 2%;
+    padding-left: 2%;
+    float: left;
+    color: black;
+}
+
+#copyright {
+    background-color: deepskyblue;
+}
+
+#copyright p {
+    color: white;
+    text-align: center;
+    font-weight: 200;
+    padding: 20px;
+}
+
+@font-face {
+    font-family: 'CuteAurora';
+    src: url(font/CuteAurora.ttf);
+    font-family: 'DigitaltsOrange';
+    src: url(font/DigitaltsOrange.ttf);
+    font-family: 'HomeWinter';
+    src: url(font/HomeWinter.otf);
+}
+
+@font-face {
+    font-family: 'DragonWings';
+    src: url(font/DragonWings.ttf);
+}
